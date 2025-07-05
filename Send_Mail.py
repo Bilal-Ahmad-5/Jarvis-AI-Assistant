@@ -1,7 +1,7 @@
 import os
 import smtplib
 import ssl
-from llm import LLM
+from AI_Assistant import LLM
 import streamlit as st
 from email.message import EmailMessage
 from pathlib import Path
