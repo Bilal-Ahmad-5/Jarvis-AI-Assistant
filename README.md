@@ -15,7 +15,7 @@ Installation 🛠️
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/meeting-assistant.git
+git clone https://github.com/Bilal-Ahmad-5/meeting-assistant.git
 cd meeting-assistant
 Create and activate a virtual environment:
 
