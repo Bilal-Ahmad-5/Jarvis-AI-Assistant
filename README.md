@@ -4,15 +4,10 @@ Meeting Assistant is an AI-powered productivity tool designed to enhance your vi
 
 Key Features ✨
 AI-Powered Chat: Intelligent conversations using Groq's LLama3-70b model
-
 Voice Commands: Interact hands-free with microphone support
-
 Email Automation: Send professional emails with AI-generated content
-
 Web Search Integration: Get real-time information with Tavily search
-
 Multi-Page Interface: Organized workflow with dedicated sections
-
 Text-to-Speech: Hear responses with built-in audio output
 
 Installation 🛠️
@@ -49,27 +44,20 @@ AI Assistant 💬
 Chat with the AI using text input
 
 Perform summarization, text classification, and web searches
-
 Listen to responses with text-to-speech
 
 Voice Assistant 🎤
 
 Interact with Jarvis using voice commands
-
 Open websites with voice prompts
-
 Send emails and perform system tasks
-
 Email Sender ✉️
-
 Generate professional emails with AI
-
 Send to multiple recipients
-
 Add attachments to your messages
 
 Project Structure 📁
-text
+
 meeting-assistant/
 ├── Home.py                 # Main navigation hub
 ├── AI_Assistant.py         # Chat interface with AI
@@ -79,32 +67,23 @@ meeting-assistant/
 ├── .env.example            # Environment template
 ├── README.md               # Project documentation
 └── assets/                 # Media resources
+
 Dependencies 📦
 Streamlit
-
 Groq SDK
-
 LangChain Groq
-
 LangChain Tavily
-
 python-dotenv
-
 pywin32 (Windows only)
-
 SpeechRecognition
-
 smtplib
 
 Configuration ⚙️
 Customize the application in the following ways:
 
 AI Models: Choose between different LLMs in the settings panel
-
 Creativity: Adjust the temperature slider for more creative responses
-
 Quick Sites: Customize the website shortcuts in Jarvis_AI_Agent.py
-
 Email Templates: Modify the prompt in Send_Mail.py for different email styles
 
 License 📄
