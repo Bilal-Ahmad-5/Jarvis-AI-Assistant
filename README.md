@@ -1,6 +1,6 @@
-Meeting Assistant 🤖
+Jarvis AI Assistant 🤖
 
-Meeting Assistant is an AI-powered productivity tool designed to enhance your virtual meetings and daily workflow. Built with Streamlit and powered by Groq's lightning-fast LLMs, this application provides intelligent conversation, voice commands, email automation, and more - all in one place.
+Jarvis AI Assistant is an AI-powered productivity tool designed to enhance your virtual meetings and daily workflow. Built with Streamlit and powered by Groq's lightning-fast LLMs, this application provides intelligent conversation, voice commands, email automation, and more - all in one place.
 
 Key Features ✨
 
@@ -15,8 +15,9 @@ Installation 🛠️
 Clone the repository:
 
 bash
-git clone https://github.com/Bilal-Ahmad-5/meeting-assistant.git
-cd meeting-assistant
+git clone https://github.com/Bilal-Ahmad-5/AI-Personal-Assistant.git
+cd AI-Personal-Assistant
+
 Create and activate a virtual environment:
 
 bash
@@ -38,7 +39,7 @@ Usage 🚀
 Run the application:
 
 bash
-streamlit run Home.py
+streamlit run main.py
 Application Sections:
 AI Assistant 💬
 
@@ -62,14 +63,13 @@ Email Sender ✉️
 Project Structure 📁
 
 meeting-assistant/
-├── Home.py                 # Main navigation hub
+├── main.py                 # Main navigation hub
 ├── AI_Assistant.py         # Chat interface with AI
 ├── Jarvis_AI_Agent.py      # Voice command interface
 ├── Send_Mail.py            # Email automation tool
 ├── requirements.txt        # Dependencies
 ├── .env.example            # Environment template
 ├── README.md               # Project documentation
-└── assets/                 # Media resources
 
 Dependencies 📦
 
