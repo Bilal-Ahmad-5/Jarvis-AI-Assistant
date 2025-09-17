@@ -12,39 +12,41 @@ Key Features ✨
 - ext-to-Speech: Hear responses with built-in audio output
 
 Installation 🛠️
-Clone the repository:
+- Clone the repository:
 
 bash
-git clone https://github.com/Bilal-Ahmad-5/AI-Personal-Assistant.git
-cd AI-Personal-Assistant
+- git clone https://github.com/Bilal-Ahmad-5/AI-Personal-Assistant.git
+- cd AI-Personal-Assistant
 
 Create and activate a virtual environment:
 
 bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate    # Windows
-Install dependencies:
+- python -m venv venv
+- source venv/bin/activate  # Linux/Mac
+- venv\Scripts\activate    # Windows
+- Install dependencies:
 
 bash
-pip install -r requirements.txt
-Create a .env file with your API keys:
+- pip install -r requirements.txt
+- Create a .env file with your API keys:
 
 env
-GROQ_API_KEY=your_groq_api_key
-TAVILY_API_KEY=your_tavily_api_key
-SMTP_USER=your_email@gmail.com
-SMTP_PASSWORD=your_email_app_password
+- GROQ_API_KEY=your_groq_api_key
+- TAVILY_API_KEY=your_tavily_api_key
+- SMTP_USER=your_email@gmail.com
+- SMTP_PASSWORD=your_email_app_password
+
 Usage 🚀
 Run the application:
 
 bash
-streamlit run main.py
+- streamlit run main.py
+
 Application Sections:
+
 AI Assistant 💬
 
-Chat with the AI using text input
-
+- Chat with the AI using text input
 -Perform summarization, text classification, and web searches
 -Listen to responses with text-to-speech
 
@@ -53,7 +55,7 @@ Voice Assistant 🎤
 - Interact with Jarvis using voice commands
 - Open websites with voice prompts
 - Send emails and perform system tasks
-- 
+  
 Email Sender ✉️
 
 - Generate professional emails with AI
