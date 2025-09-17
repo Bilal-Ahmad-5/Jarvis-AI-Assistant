@@ -65,13 +65,13 @@ Email Sender ✉️
 Project Structure 📁
 
 meeting-assistant/
-├── main.py                 # Main navigation hub
-├── AI_Assistant.py         # Chat interface with AI
-├── Jarvis_AI_Agent.py      # Voice command interface
-├── Send_Mail.py            # Email automation tool
-├── requirements.txt        # Dependencies
-├── .env.example            # Environment template
-├── README.md               # Project documentation
+- ├── main.py                 # Main navigation hub
+- ├── AI_Assistant.py         # Chat interface with AI
+- ├── Jarvis_AI_Agent.py      # Voice command interface
+- ├── Send_Mail.py            # Email automation tool
+- ├── requirements.txt        # Dependencies
+- ├── .env.example            # Environment template
+- ├── README.md               # Project documentation
 
 Dependencies 📦
 
